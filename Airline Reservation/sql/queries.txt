@@ -1,0 +1,18 @@
+1.Display the flight numbers and weekdays of all flight | Given a Departure Airport Code and Arrival Airport Code
+
+SELECT f.flight_number, f.weekdays FROM flight f, flight_leg fl, flight_leg fl2
+WHERE fl.flight_number = fl2.flight_number
+and (fl.arrival_airport_code = '16592-313' or fl.departure_airport_code='16590-313');
+and fl.departure_airport_code = fl2.arrival_airport_code
+2. Display information for all legs | Given a flight number
+
+SELECT * FROM leg_instance
+WHERE flight_number = $FLIGHT_NUMBER
+
+3. Display the number of available seats on a particular flight | Given a flight number and Date
+
+
+
+
+select * from flight_leg
+where 

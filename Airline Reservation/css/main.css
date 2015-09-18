@@ -1,0 +1,96 @@
+/* Main CSS File */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	/*whole background color*/
+	background: #000;
+}
+
+#main_wrapper {
+	width: 1000px;
+	height: 700px;
+	margin: 20px auto 20px;
+	/*heading background color*/
+	background: #fff;
+/*	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;*/
+}
+
+#main_header {
+	width: 970px;
+	padding: 15px;
+	height: 120px;
+}
+
+#main_menu {
+	width: 1000px;
+	height: 50px;
+	/*menu background color*/
+	background: #f90;
+	margin-bottom: 15px;
+}
+
+#page {
+	float: left;
+	color: #fff;
+	padding: 13px 20px 13px;
+	font-family: tahoma;
+	font-size: 17px;
+}
+
+#page:hover {
+	background: #06f;
+}
+
+#content_wrapper {
+	width: 1000px;
+}
+
+#left_side {
+	float: left;
+	width: 180px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#main_content{
+	float: left;
+	width: 580px;
+}
+
+#right_side {
+	float: left;
+	width: 180px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#main_footer {
+	color: #ccc;
+	width: 1000px;
+	margin: 15px auto;
+	text-align: center;
+	font-size: 14px;
+	font-family: arial;
+}
